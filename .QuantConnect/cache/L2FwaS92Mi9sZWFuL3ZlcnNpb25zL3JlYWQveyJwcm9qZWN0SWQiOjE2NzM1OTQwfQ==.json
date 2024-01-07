@@ -1,0 +1,33 @@
+{
+    "versions": [
+        {
+            "id": 16138,
+            "sref": "refs/heads/master",
+            "slean": "1d52e5b14aa2e31072ae41d50c0e6c45c2cea24b",
+            "sleancloud": "954c1b51da1c5654897f9d4d751213c76c7c039e",
+            "sdescription": "Update readme.md",
+            "sname": "master",
+            "bpublic": 1,
+            "itimestamp": "2024-01-04 19:41:43",
+            "benchmark_basic": 268154.114158636,
+            "benchmark_equity_400_minute": 733685.5943437915,
+            "benchmark_equity_1_second": 275138.60938383266,
+            "benchmark_cs_indicator": 186938.27940015786,
+            "benchmark_cs_history": 225767.87778695294,
+            "benchmark_cs_schedule_events": 262777.602905569,
+            "benchmark_py_basic": 199635.706401766,
+            "benchmark_py_equity_400_minute": 711671.8816973853,
+            "benchmark_py_equity_1_second": 232880.47846889953,
+            "benchmark_py_indicator": 43435.96587782058,
+            "benchmark_py_history": 74308.15660685155,
+            "benchmark_py_schedule_events": 144030.72329130722,
+            "benchmark_py_universe_coarsefine": 267380.41237113404,
+            "benchmark_cs_universe_coarsefine": 321540.47131147544,
+            "benchmark_py_universe_stateful": 110656.95603784085,
+            "benchmark_cs_universe_stateful": 183469.2696371153,
+            "benchmark_py_universe_stateless": 165320.61258278147,
+            "benchmark_cs_universe_stateless": 211442.3504499735
+        }
+    ],
+    "success": true
+}

@@ -1,0 +1,513 @@
+{
+    "organization": {
+        "id": "61a3eb8f2affddcfae327debcca227e5",
+        "allowSkylightSync": 1,
+        "seats": 1,
+        "type": "researcher",
+        "billing": null,
+        "credit": {
+            "movements": [],
+            "movementsCount": 0,
+            "balance": 0,
+            "automaticCreditUsage": 0,
+            "automaticCreditTopUp": 0,
+            "creditTopUpMin": 500,
+            "creditTopUpAmount": 2000
+        },
+        "subscriptions": [
+            {
+                "id": 376236,
+                "name": "B-MICRO",
+                "price": 0,
+                "start": "2023-10-14 13:54:12"
+            },
+            {
+                "id": 401160,
+                "name": "R-MICRO",
+                "price": 0,
+                "start": "2024-01-05 08:39:06"
+            },
+            {
+                "id": 401161,
+                "name": "Researcher Seat",
+                "price": 10,
+                "start": "2024-01-05 08:39:11"
+            }
+        ],
+        "products": [
+            {
+                "name": "Professional Seats",
+                "icon": "https://cdn.quantconnect.com/i/tu/subscription-icon-v1.0.png",
+                "items": [
+                    {
+                        "productId": 31,
+                        "name": "Researcher Seat",
+                        "quantity": 1,
+                        "unitPrice": 10,
+                        "total": 10
+                    }
+                ]
+            },
+            {
+                "name": "Backtest Node",
+                "icon": "https://cdn.quantconnect.com/i/tu/backtest-node-icon-v1.0.png",
+                "items": [
+                    {
+                        "productId": 30,
+                        "name": "B-MICRO",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "name": "Research Node",
+                "icon": "https://cdn.quantconnect.com/i/tu/research-node-icon-v1.0.png",
+                "items": [
+                    {
+                        "productId": 29,
+                        "name": "R-MICRO",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "name": "Modules",
+                "icon": "https://cdn.quantconnect.com/i/tu/arrow-right-circle.svg",
+                "items": [
+                    {
+                        "productId": 130,
+                        "name": "Kraken Brokerage",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "lHt0/WMuc+o1WL/ZcuOAx5kK4Q5AD1OZhVkxD1H5ExbkQFQ+RoPCWs5fpr0BdYBSfe4k97sn5xslSZ5mApwebAolaFOhpiHSjLZtoNQJW60=::A9PH13+Q+cKrVsBdR4tQQw=="
+                    },
+                    {
+                        "productId": 173,
+                        "name": "SAMCO Brokerage",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "8P/N7ezUUSoNLSM31NP7DJb1XMqtSw+BQH3nKISrrI16NKT0ifoAzuNQPz0FD5rlv7L+JSe5e4pF/rPlEZMQtupoVSgC3hS+aQjel7yKqTI=::l118cxR0UfhVO1AQINVw2g=="
+                    },
+                    {
+                        "productId": 174,
+                        "name": "Zerodha Brokerage",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "D8MVQDNHxlCF6tQqcxBcOd+8YYpSWxXYI2IaGTkWKZ1aC7aRKLsvf0rmVOCinfClgJCwb/WhqAn3uQpLEhBU6RFqOQnnHDJpkhIxbLGKI8c=::nY/E8xHjEsLI2WyMqn7v1g=="
+                    },
+                    {
+                        "productId": 176,
+                        "name": "Binance Brokerage",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "9/9iSHB4G6se4WspQja4djY0wKoIJ+rNR2HuHXDUz4xwBKi9vDDUBppe+oe5XCwAzRDQii6B9DnkXaLqlAHAquKhW7GC5uNZgdL6qXO6+Vk=::dG7ag2gnfzaKa9acz8Oj7g=="
+                    },
+                    {
+                        "productId": 181,
+                        "name": "Interactive Brokers",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "R8bkteTh8JKtaVOVtUeya963DGwtkznZbTGh+wLHsBa31xyhcmR7J2pkzQ9m1t6oI4e/UcP2WaqkwkIQYRn3/o8GlYen3SnSq0o1kInJLSs=::WANL5ORypvC1S0ryu9xqmA=="
+                    },
+                    {
+                        "productId": 182,
+                        "name": "Bitfinex",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "/unm+35Imy/5omR7JTZ7GgSIE7zj/aMz0Bo+dmTdqKLXBIVzvHP/9hn6MHDO1MAOPgUShCf5spbC92ruH+08+MYXPSYV0EUtLuPRzt+/yko=::60sXY4WXKh9CtVWNi8mXiw=="
+                    },
+                    {
+                        "productId": 183,
+                        "name": "Coinbase Advanced",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "/Rk7p4m2Qe98Gu0nqi6HwM/tz7hNqFm1u3HqO6/tjWsa9ovj6l/i/mFaG1WwC5e/amwEj1yWk0Icl8v52uSSjIA+eVro+8PezANPudCWE78=::rAxlQCuSa8I5c4d98veUlA=="
+                    },
+                    {
+                        "productId": 184,
+                        "name": "OANDA",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "WEPluIQfaRJWj93+wyce/SHyyObiSinHcX8UeoIys6DOyc5aqY595PrJgeXmwaCX0vZuqHA+3sofYTdLw+adQU4TRZXMakw9ld9gVx2XdIw=::ea7EtHxFrdAfJnMENeIlYw=="
+                    },
+                    {
+                        "productId": 185,
+                        "name": "Tradier",
+                        "quantity": 1,
+                        "unitPrice": 1,
+                        "total": 1,
+                        "license": "48EgaUo7RGDKeFD5aLgsebyt7wgLGkEpeEaKmUtXSyyURYO/Zj5w/HHZkC8VOF4y0Q7GjI5wX6cRjKMo4fEF99lxIyxXPsP+V1BQAW/LSiM=::jswoMFjKkwUguQmCKWWMWQ=="
+                    },
+                    {
+                        "productId": 226,
+                        "name": "TD Ameritrade",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "YOa4RILdJ4UVloRBU2VHz4bOrU/ev58jqVNPmrmo6CiEGAsC0WuS+573kWiVPhXtbcr5LDowqsKHHESqPe5cpr+mb4WCkYYutppBWKEM9m0=::+qC1GZ8NQX6kKkxsKigMGA=="
+                    },
+                    {
+                        "productId": 227,
+                        "name": "Local Platform - VSCode Extension",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "n3d1LuNSoc+b9C8ELXew+y98lJjaIQTtgHa+X/i09nNLKvkqyjL8Vij+ExrC5BLNyfxIR4BzylsFM+6bwc8EW3vaZQnmVFw2PybDGxZLC8s=::rGkxeikV/W4RnllMu1usWw=="
+                    },
+                    {
+                        "productId": 228,
+                        "name": "Messaging Handler",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "43XllhMJEyJ2ga0AsmP5bn3K6HgmjZt7RLab3bfC+FrjEM8muoQWGM2bLoADG6GXEoIoIKvuleLHhbYt8ewv7WKzhvREI9BUnZThqGNfWdk=::U8Uoi9B9yDjN8OwL098V5Q=="
+                    },
+                    {
+                        "productId": 305,
+                        "name": "Bybit",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "e6+XHndSGtzQTpGDzqaZscUesAJ+Js5M08mKceO7HP4gMsrZRN+/U3o4wxWx6RCgAHzF+8D5zPxFocf8pX4RRkV657ZFvSEelVG+OFjwW1c=::bpRwzL9QSNVLq3/aczBdtg=="
+                    },
+                    {
+                        "productId": 306,
+                        "name": "Polygon Data",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "yXbKUlZJQ/K6GcF4EnoSPnTSezlW2Q/T9Hs98vt1KjQTRMeQ9YvreOj6C3EJ+fWDN57kD6qCp+z7h8veCgFusYTEeyuf6aRjcMBqhU2Xa5U=::iSWmaqfDq7HijbsuWf4fPA=="
+                    },
+                    {
+                        "productId": 308,
+                        "name": "Eze",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "mzfUQ2LryyJgcyArDetdd0ySlF0f5TyFkJMGvBFy6hxg7DrY/lbRD1J2f8eQXGAw/EH6nHx6gMNsUPk+dV3R6elQY+BbFxkTd4V12Gehcdg=::EnqcAPXhU79f8kwvbHUjjA=="
+                    },
+                    {
+                        "productId": 313,
+                        "name": "Local Price Service",
+                        "quantity": 1,
+                        "unitPrice": 0,
+                        "total": 0,
+                        "license": "MVOQWf4bsSav6uQ/pQI4hWHI8oAiJeWNyQtxR/uA0S6JpjNWKaDX9pTk0q2kPKDx21eoC6TvP5+nkd3Q2dMF5Grh0Bi+NY2vchUAPpxxyH4=::15lmeYps59nCzNyT2grUUg=="
+                    }
+                ]
+            }
+        ],
+        "invoices": [
+            {
+                "id": "z54rCBizMD",
+                "time": "2024-01-05 08:39:12",
+                "status": "Paid",
+                "amount": 10,
+                "discount": 0,
+                "total": 10,
+                "url": "https://invoice.stripe.com/i/acct_1ulWuTYT697Hz5VaULuW/live_YWNjdF8xdWxXdVRZVDY5N0h6NVZhVUx1VyxfUEptVUhaVTVoZGlUbW5LSmNKVExwWUM1dldHM1hVdCw5NDk4NDc1Mg0200Q6OvWOiG?s=ap"
+            }
+        ],
+        "invoicesCount": 1,
+        "about": "",
+        "name": "Long",
+        "supportSeats": {
+            "bronze": {
+                "seats": 0,
+                "unassigned": 0
+            },
+            "silver": {
+                "seats": 0,
+                "unassigned": 0
+            },
+            "gold": {
+                "seats": 0,
+                "unassigned": 0
+            }
+        },
+        "shortDescription": "Write a short description",
+        "statistics": [
+            {
+                "name": "ComputeHours",
+                "value": "0"
+            },
+            {
+                "name": "Lines",
+                "value": "550"
+            },
+            {
+                "name": "Projects",
+                "value": "12"
+            },
+            {
+                "name": "Backtests",
+                "value": "11"
+            },
+            {
+                "name": "Members",
+                "value": "1"
+            }
+        ],
+        "profileImage": "https://cdn.quantconnect.com/i/tu/organization-default-icon.png",
+        "useResourcesListView": false,
+        "useMembersListView": false,
+        "isUsingPaidFeatures": true,
+        "isAbleToDowngrade": true,
+        "nodes": {
+            "backtest": [
+                {
+                    "speed": 3,
+                    "price": {
+                        "monthly": 0,
+                        "yearly": 0
+                    },
+                    "cpu": 1,
+                    "ram": 7.8,
+                    "name": "Community B-MICRO",
+                    "sku": "B-MICRO",
+                    "description": "1 CPU @ 3.0GHz, 7.8GB Ram",
+                    "usedBy": "-",
+                    "userProfile": "",
+                    "projectName": "",
+                    "projectId": null,
+                    "busy": false,
+                    "id": "BN-1204b6d876350cabb958df61cc367037",
+                    "assets": 100,
+                    "host": null,
+                    "hasGpu": 0
+                }
+            ],
+            "research": [
+                {
+                    "speed": 2.4,
+                    "price": {
+                        "monthly": 0,
+                        "yearly": 0
+                    },
+                    "cpu": 1,
+                    "ram": 2,
+                    "name": "Community R-MICRO",
+                    "sku": "R-MICRO",
+                    "description": "1 CPU @ 2.4GHz, 2GB Ram",
+                    "usedBy": "-",
+                    "userProfile": "",
+                    "projectName": "",
+                    "projectId": null,
+                    "busy": false,
+                    "id": "RN-d9e636cce106966f71a898414af97277",
+                    "assets": 100,
+                    "host": null,
+                    "hasGpu": 0
+                }
+            ],
+            "live": []
+        },
+        "environment": {
+            "files": 0,
+            "bytes": 4096,
+            "size": "4 KB"
+        },
+        "data": {
+            "signedTime": null,
+            "current": false
+        },
+        "objectStore": [
+            {
+                "id": 24,
+                "name": "S-MICRO",
+                "price": 0,
+                "bytes": 52428800,
+                "files": 1000,
+                "storage": "50 MB",
+                "active": true
+            },
+            {
+                "id": 25,
+                "name": "S-10",
+                "price": 12,
+                "bytes": 2147483648,
+                "files": 20000,
+                "storage": "2 GB",
+                "active": false
+            },
+            {
+                "id": 26,
+                "name": "S-20",
+                "price": 24,
+                "bytes": 5368709120,
+                "files": 50000,
+                "storage": "5 GB",
+                "active": false
+            },
+            {
+                "id": 27,
+                "name": "S-50",
+                "price": 60,
+                "bytes": 10737418240,
+                "files": 100000,
+                "storage": "10 GB",
+                "active": false
+            },
+            {
+                "id": 28,
+                "name": "S-100",
+                "price": 120,
+                "bytes": 53687091200,
+                "files": 500000,
+                "storage": "50 GB",
+                "active": false
+            }
+        ],
+        "objectStoreHighestConsumers": [],
+        "objectStorageUsed": 4096,
+        "objectStorageUsedHuman": "4 KB",
+        "members": [
+            {
+                "id": 251240,
+                "name": "Long",
+                "isAdmin": true,
+                "isRequester": true,
+                "profile": "https://cdn.quantconnect.com/web/i/users/thumbnail/100/default.jpg",
+                "editable": false,
+                "support": null,
+                "linkedin": null,
+                "lastLoginTimestamp": "2024-01-06 00:56:38",
+                "email": "vuduclong0309@gmail.com",
+                "profileUrl": "/u/long_5",
+                "publicId": "long_5",
+                "online": true,
+                "permissions": {
+                    "updateBilling": {
+                        "name": "Update Billing",
+                        "value": true
+                    },
+                    "researchNodeStop": {
+                        "name": "Stop Research Nodes",
+                        "value": true
+                    },
+                    "researchNodeCreate": {
+                        "name": "Create Research Nodes",
+                        "value": true
+                    },
+                    "researchNodeDelete": {
+                        "name": "Delete Research Nodes",
+                        "value": true
+                    },
+                    "liveNodeStop": {
+                        "name": "Stop Live Nodes",
+                        "value": true
+                    },
+                    "liveNodeCreate": {
+                        "name": "Create Live Nodes",
+                        "value": true
+                    },
+                    "liveNodeDelete": {
+                        "name": "Delete Live Nodes",
+                        "value": true
+                    },
+                    "backtestNodeStop": {
+                        "name": "Stop Backtest Nodes",
+                        "value": true
+                    },
+                    "backtestNodeCreate": {
+                        "name": "Create Backtest Nodes",
+                        "value": true
+                    },
+                    "backtestNodeDelete": {
+                        "name": "Delete Backtest Nodes",
+                        "value": true
+                    },
+                    "teamAdd": {
+                        "name": "Add Team Members to The Organization",
+                        "value": true
+                    },
+                    "teamEdit": {
+                        "name": "Edit Team Members Permissions",
+                        "value": false
+                    },
+                    "teamRemove": {
+                        "name": "Remove Team Members",
+                        "value": true
+                    },
+                    "storageBilling": {
+                        "name": "Manage Storage Billing",
+                        "value": true
+                    },
+                    "storageCreate": {
+                        "name": "Create Storage Files",
+                        "value": true
+                    },
+                    "storageDelete": {
+                        "name": "Delete Storage Files",
+                        "value": true
+                    }
+                }
+            }
+        ],
+        "alpha": null,
+        "courses": {
+            "coursesCont": 4,
+            "enrolledMembers": 1,
+            "completedTasks": 5,
+            "courses": [
+                {
+                    "id": 1,
+                    "name": "Boot Camp 101 / US Equities",
+                    "authorName": "QuantConnect",
+                    "thumbnail": "https://cdn.quantconnect.com/i/tu/bootcamp-101-thumbnail-image3.jpg",
+                    "shortDescription": "Learn algorithmic trading with python for US Equities. Guided strategy development in easily digestible portions.",
+                    "members": []
+                },
+                {
+                    "id": 2,
+                    "name": "Boot Camp 102 / FOREX",
+                    "authorName": "QuantConnect",
+                    "thumbnail": "https://cdn.quantconnect.com/i/tu/bootcamp-102-thumbnail-image3.jpg",
+                    "shortDescription": "Learn algorithmic trading with python for FX. Guided strategy development in easily digestible portions.",
+                    "members": []
+                },
+                {
+                    "id": 3,
+                    "name": "Boot Camp 103 / Futures",
+                    "authorName": "QuantConnect",
+                    "thumbnail": "https://cdn.quantconnect.com/i/tu/bootcamp-103-thumbnail-image3.jpg",
+                    "shortDescription": "Learn algorithmic trading with python for Futures. Guided strategy development in easily digestible portions.",
+                    "members": [
+                        {
+                            "name": "Long",
+                            "profile": "default.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "Algorithmic Trading A-Z | The Complete Course",
+                    "authorName": "Louis",
+                    "thumbnail": "https://cdn.quantconnect.com/i/tu/python-for-algorithmic-trading-thumbnail-image.jpg",
+                    "shortDescription": "In this algorithmic trading tutorial series you will learn everything you need to know to start writing your own trading bots using Python and the QuantConnect quantitative trading platform.",
+                    "members": []
+                }
+            ]
+        },
+        "channel": "ORG33eadc4182-61a3eb8f2affddcfae327debcca227e5",
+        "billingFrequency": "monthly",
+        "billingStatus": null,
+        "hasCardOnFile": true,
+        "joinOrganizationLink": "https://www.quantconnect.com/invite?t=organization&o=61a3eb8f2affddcfae327debcca227e5&k=b0bfd2a557f33b652125eaf9e4235c7c49a29e7a",
+        "outOfSampleDays": 0,
+        "trial": null
+    },
+    "success": true
+}
