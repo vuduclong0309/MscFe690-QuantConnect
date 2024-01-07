@@ -1,0 +1,79 @@
+{
+    "algorithm-language": "Python",
+    "parameters": {},
+    "description": "Perform sentiment analysis on news articles that mention FAANG stocks. When there is good news, allocate a portion of the portfolio to the corresponding stock until the end of the day.",
+    "cloud-id": 16331045,
+    "organization-id": "61a3eb8f2affddcfae327debcca227e5",
+    "python-venv": 1,
+    "backtestGrid": {
+        "md": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 9,
+                "height": 5,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Assets Sales Volume",
+                "width": 3,
+                "height": 10,
+                "row": 1,
+                "column": 10,
+                "sort": 20
+            },
+            {
+                "chartName": "Drawdown",
+                "width": 9,
+                "height": 2,
+                "row": 6,
+                "column": 1,
+                "sort": 61
+            },
+            {
+                "chartName": "Exposure",
+                "width": 9,
+                "height": 3,
+                "row": 8,
+                "column": 1,
+                "sort": 81
+            }
+        ],
+        "lg": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 9,
+                "height": 5,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Assets Sales Volume",
+                "width": 3,
+                "height": 9,
+                "row": 1,
+                "column": 10,
+                "sort": 20
+            },
+            {
+                "chartName": "Drawdown",
+                "width": 9,
+                "height": 2,
+                "row": 6,
+                "column": 1,
+                "sort": 61
+            },
+            {
+                "chartName": "Exposure",
+                "width": 9,
+                "height": 2,
+                "row": 8,
+                "column": 1,
+                "sort": 81
+            }
+        ]
+    },
+    "uptime": 0
+}

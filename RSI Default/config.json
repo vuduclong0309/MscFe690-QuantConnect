@@ -1,0 +1,150 @@
+{
+    "channel-id": "LOCAL-1aa8157b6a69e375a09d00536327bd10",
+    "description": "",
+    "algorithm-language": "Python",
+    "parameters": {},
+    "cloud-id": 16736070,
+    "organization-id": "61a3eb8f2affddcfae327debcca227e5",
+    "backtestGrid": {
+        "md": [],
+        "xs": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 12,
+                "height": 6,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Drawdown",
+                "width": 12,
+                "height": 4,
+                "row": 7,
+                "column": 1,
+                "sort": 71
+            },
+            {
+                "chartName": "Assets Sales Volume",
+                "width": 12,
+                "height": 5,
+                "row": 11,
+                "column": 1,
+                "sort": 111
+            }
+        ],
+        "lg": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 9,
+                "height": 5,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Assets Sales Volume",
+                "width": 3,
+                "height": 9,
+                "row": 1,
+                "column": 10,
+                "sort": 20
+            },
+            {
+                "chartName": "Drawdown",
+                "width": 9,
+                "height": 2,
+                "row": 6,
+                "column": 1,
+                "sort": 61
+            },
+            {
+                "chartName": "Exposure",
+                "width": 9,
+                "height": 2,
+                "row": 8,
+                "column": 1,
+                "sort": 81
+            }
+        ],
+        "sm": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 12,
+                "height": 6,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Drawdown",
+                "width": 12,
+                "height": 4,
+                "row": 7,
+                "column": 1,
+                "sort": 71
+            },
+            {
+                "chartName": "Assets Sales Volume",
+                "width": 12,
+                "height": 3,
+                "row": 11,
+                "column": 1,
+                "sort": 111
+            }
+        ],
+        "xl": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 9,
+                "height": 5,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Assets Sales Volume",
+                "width": 3,
+                "height": 5,
+                "row": 1,
+                "column": 10,
+                "sort": 20
+            },
+            {
+                "chartName": "Drawdown",
+                "width": 9,
+                "height": 2,
+                "row": 6,
+                "column": 1,
+                "sort": 61
+            },
+            {
+                "chartName": "Capacity",
+                "width": 3,
+                "height": 2,
+                "row": 6,
+                "column": 10,
+                "sort": 70
+            },
+            {
+                "chartName": "Exposure",
+                "width": 9,
+                "height": 2,
+                "row": 8,
+                "column": 1,
+                "sort": 81
+            },
+            {
+                "chartName": "Portfolio Turnover",
+                "width": 3,
+                "height": 2,
+                "row": 8,
+                "column": 10,
+                "sort": 90
+            }
+        ]
+    },
+    "python-venv": 1,
+    "local-id": 672770391,
+    "uptime": 0
+}

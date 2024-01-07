@@ -1,0 +1,33 @@
+{
+    "versions": [
+        {
+            "id": 16144,
+            "sref": "refs/heads/master",
+            "slean": "3f3d13a1dfc9249aa353fd76d6a3f3ef447aa563",
+            "sleancloud": "32808f0ac756a81a67f8b5329d309003a9ad1ef3",
+            "sdescription": "Upgrades to backend QuantConnect operations",
+            "sname": "master",
+            "bpublic": 1,
+            "itimestamp": "2024-01-05 21:50:34",
+            "benchmark_basic": 261751.01302460203,
+            "benchmark_equity_400_minute": 768315.8260064785,
+            "benchmark_equity_1_second": 302498.5705407085,
+            "benchmark_cs_indicator": 183179.27300850736,
+            "benchmark_cs_history": 228790.71129707113,
+            "benchmark_cs_schedule_events": 215759.74155069582,
+            "benchmark_py_basic": 203224.6629213483,
+            "benchmark_py_equity_400_minute": 668679.2186870722,
+            "benchmark_py_equity_1_second": 235357.93036750483,
+            "benchmark_py_indicator": 48868.82352941177,
+            "benchmark_py_history": 76108.43776106933,
+            "benchmark_py_schedule_events": 141587.93215916504,
+            "benchmark_py_universe_coarsefine": 299548.4119345524,
+            "benchmark_cs_universe_coarsefine": 319901.6309887869,
+            "benchmark_py_universe_stateful": 106965.9494351802,
+            "benchmark_cs_universe_stateful": 152215.16768292684,
+            "benchmark_py_universe_stateless": 179270.46678635548,
+            "benchmark_cs_universe_stateless": 173507.6455256299
+        }
+    ],
+    "success": true
+}
