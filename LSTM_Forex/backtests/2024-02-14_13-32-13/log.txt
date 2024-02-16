@@ -1,0 +1,111 @@
+2024-02-14T05:32:15.3872249Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-02-14T05:32:15.4256439Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-02-14T05:32:15.4265061Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: LAPTOP-BC2TTKVT
+2024-02-14T05:32:15.4335198Z TRACE:: Engine.Main(): Started 5:32 AM
+2024-02-14T05:32:15.4433327Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2024-02-14T05:32:15.4836661Z TRACE:: JobQueue.NextJob(): Selected /LeanCLI/main.py
+2024-02-14T05:32:15.6008238Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2024-02-14T05:32:15.6013160Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2024-02-14T05:32:15.6020741Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2024-02-14T05:32:15.6025613Z TRACE:: Config.GetValue(): maximum-chart-series - Using default value: 30
+2024-02-14T05:32:15.6043452Z TRACE:: Config.GetValue(): storage-limit - Using default value: 10737418240
+2024-02-14T05:32:15.6048360Z TRACE:: Config.GetValue(): storage-permissions - Using default value: 3
+2024-02-14T05:32:15.6054212Z TRACE:: Config.Get(): Configuration key not found. Key: optimization-id - Using default value: 
+2024-02-14T05:32:15.6062669Z TRACE:: Config.Get(): Configuration key not found. Key: backtest-name - Using default value: local
+2024-02-14T05:32:15.6193514Z TRACE:: Config.Get(): Configuration key not found. Key: data-channel - Using default value: 
+2024-02-14T05:32:15.6197697Z TRACE:: Config.Get(): Configuration key not found. Key: job-organization-id - Using default value: 
+2024-02-14T05:32:15.6202209Z TRACE:: Config.Get(): Configuration key not found. Key: python-venv - Using default value: 
+2024-02-14T05:32:15.6208040Z TRACE:: Config.Get(): Configuration key not found. Key: out-of-sample-max-end-date - Using default value: 
+2024-02-14T05:32:15.6212628Z TRACE:: Config.GetValue(): out-of-sample-days - Using default value: 0
+2024-02-14T05:32:15.6239170Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2024-02-14T05:32:15.6799973Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-02-14T05:32:15.6849464Z TRACE:: Config.Get(): Configuration key not found. Key: fundamental-data-provider - Using default value: CoarseFundamentalDataProvider
+2024-02-14T05:32:15.6965324Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2024-02-14T05:32:15.6982670Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2024-02-14T05:32:15.7403861Z TRACE:: Engine.Run(): Resource limits '0' CPUs. 2147483647 MB RAM.
+2024-02-14T05:32:15.7416535Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2024-02-14T05:32:15.8926478Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-02-14T05:32:16.6221918Z TRACE:: DebuggerHelper.Initialize(): initializing python...
+2024-02-14T05:32:16.6238493Z TRACE:: PythonInitializer.Initialize(): start...
+2024-02-14T05:32:18.6049430Z TRACE:: PythonInitializer.Initialize(): ended
+2024-02-14T05:32:18.6054034Z TRACE:: DebuggerHelper.Initialize(): python initialization done
+2024-02-14T05:32:18.6059444Z TRACE:: DebuggerHelper.Initialize(): starting...
+2024-02-14T05:32:18.6063149Z TRACE:: DebuggerHelper.Initialize(): waiting for PTVSD debugger to attach at localhost:5678...
+2024-02-14T05:32:23.9407001Z TRACE:: DebuggerHelper.Initialize(): started
+2024-02-14T05:32:23.9416600Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2024-02-14T05:32:23.9484095Z TRACE:: AlgorithmPythonWrapper(): Python version 3.8.16 (default, Jan 17 2023, 23:21:03) 
+[GCC 11.2.0]: Importing python module main
+2024-02-14T05:32:36.4288716Z ERROR:: Loader.TryCreatePythonAlgorithm():  System.Exception: AlgorithmPythonWrapper(): cannot import name 'to_categorical' from 'tensorflow.python.keras.utils' (/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/utils/__init__.py)
+  at <module>
+    from tensorflow.python.keras.utils import to_categorical
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.NewReferenceExtensions.BorrowOrThrow(NewReference& reference)
+   at Python.Runtime.PyModule.Import(String name)
+   at Python.Runtime.Py.Import(String name)
+   at QuantConnect.AlgorithmFactory.Python.Wrappers.AlgorithmPythonWrapper..ctor(String moduleName) at AlgorithmFactory/Python/Wrappers/AlgorithmPythonWrapper.cs:line 76 in main.py: line 15
+ cannot import name 'to_categorical' from 'tensorflow.python.keras.utils' (/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/utils/__init__.py)
+   at QuantConnect.AlgorithmFactory.Python.Wrappers.AlgorithmPythonWrapper..ctor(String moduleName) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/AlgorithmFactory/Python/Wrappers/AlgorithmPythonWrapper.cs:line 148
+   at QuantConnect.AlgorithmFactory.Loader.TryCreatePythonAlgorithm(String assemblyPath, IAlgorithm& algorithmInstance, String& errorMessage) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/AlgorithmFactory/Loader.cs:line 173
+2024-02-14T05:32:36.4304555Z ERROR:: Engine.Run():  QuantConnect.Lean.Engine.Setup.AlgorithmSetupException: During the algorithm initialization, the following exception has occurred: Loader.TryCreatePythonAlgorithm(): Unable to import python module /LeanCLI/main.py. AlgorithmPythonWrapper(): cannot import name 'to_categorical' from 'tensorflow.python.keras.utils' (/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/utils/__init__.py)
+  at <module>
+    from tensorflow.python.keras.utils import to_categorical
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.NewReferenceExtensions.BorrowOrThrow(NewReference& reference)
+   at Python.Runtime.PyModule.Import(String name)
+   at Python.Runtime.Py.Import(String name)
+   at QuantConnect.AlgorithmFactory.Python.Wrappers.AlgorithmPythonWrapper..ctor(String moduleName) at AlgorithmFactory/Python/Wrappers/AlgorithmPythonWrapper.cs:line 76 in main.py: line 15
+ cannot import name 'to_categorical' from 'tensorflow.python.keras.utils' (/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/utils/__init__.py)
+   at QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler.CreateAlgorithmInstance(AlgorithmNodePacket algorithmNodePacket, String assemblyPath) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/Setup/BacktestingSetupHandler.cs:line 103
+   at QuantConnect.Lean.Engine.Engine.Run(AlgorithmNodePacket job, AlgorithmManager manager, String assemblyPath, WorkerThread workerThread) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/Engine.cs:line 116
+2024-02-14T05:32:36.4319067Z TRACE:: JOB HANDLERS:
+         DataFeed:             QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+         Setup:                QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+         RealTime:             QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+         Results:              QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+         Transactions:         QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+         Object Store:         QuantConnect.Lean.Engine.Storage.LocalObjectStore
+         History Provider:     
+         Brokerage:            
+         Data Provider:        QuantConnect.Lean.Engine.DataFeeds.DefaultDataProvider
+
+2024-02-14T05:32:36.4334386Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2024-02-14T05:32:36.4355243Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2024-02-14T05:32:36.4424841Z TRACE:: StopSafely(): Waiting for 'Result Thread' thread to stop...
+2024-02-14T05:32:36.4431833Z ERROR:: Algorithm.Initialize() Error: During the algorithm initialization, the following exception has occurred: Loader.TryCreatePythonAlgorithm(): Unable to import python module /LeanCLI/main.py. AlgorithmPythonWrapper(): cannot import name 'to_categorical' from 'tensorflow.python.keras.utils' (/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/utils/__init__.py)
+  at <module>
+    from tensorflow.python.keras.utils import to_categorical
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.NewReferenceExtensions.BorrowOrThrow(NewReference& reference)
+   at Python.Runtime.PyModule.Import(String name)
+   at Python.Runtime.Py.Import(String name)
+   at QuantConnect.AlgorithmFactory.Python.Wrappers.AlgorithmPythonWrapper..ctor(String moduleName) at AlgorithmFactory/Python/Wrappers/AlgorithmPythonWrapper.cs:line 76 in main.py: line 15
+ cannot import name 'to_categorical' from 'tensorflow.python.keras.utils' (/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/utils/__init__.py) Stack Trace: During the algorithm initialization, the following exception has occurred: Loader.TryCreatePythonAlgorithm(): Unable to import python module /LeanCLI/main.py. AlgorithmPythonWrapper(): cannot import name 'to_categorical' from 'tensorflow.python.keras.utils' (/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/utils/__init__.py)
+  at <module>
+    from tensorflow.python.keras.utils import to_categorical
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.NewReferenceExtensions.BorrowOrThrow(NewReference& reference)
+   at Python.Runtime.PyModule.Import(String name)
+   at Python.Runtime.Py.Import(String name)
+   at QuantConnect.AlgorithmFactory.Python.Wrappers.AlgorithmPythonWrapper..ctor(String moduleName) at AlgorithmFactory/Python/Wrappers/AlgorithmPythonWrapper.cs:line 76 in main.py: line 15
+ cannot import name 'to_categorical' from 'tensorflow.python.keras.utils' (/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/utils/__init__.py)
+ During the algorithm initialization, the following exception has occurred: Loader.TryCreatePythonAlgorithm(): Unable to import python module /LeanCLI/main.py. AlgorithmPythonWrapper(): cannot import name 'to_categorical' from 'tensorflow.python.keras.utils' (/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/utils/__init__.py)
+  at <module>
+    from tensorflow.python.keras.utils import to_categorical
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.NewReferenceExtensions.BorrowOrThrow(NewReference& reference)
+   at Python.Runtime.PyModule.Import(String name)
+   at Python.Runtime.Py.Import(String name)
+   at QuantConnect.AlgorithmFactory.Python.Wrappers.AlgorithmPythonWrapper..ctor(String moduleName) at AlgorithmFactory/Python/Wrappers/AlgorithmPythonWrapper.cs:line 76 in main.py: line 15
+ cannot import name 'to_categorical' from 'tensorflow.python.keras.utils' (/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/utils/__init__.py)
+2024-02-14T05:32:36.4435992Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/1883620728-log.txt
+2024-02-14T05:32:36.4441712Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2024-02-14T05:32:36.5510900Z TRACE:: 
+STATISTICS:: OrderListHash d41d8cd98f00b204e9800998ecf8427e
+2024-02-14T05:32:36.5515346Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2024-02-14T05:32:36.5527374Z TRACE:: Engine.Run(): Disposing of setup handler...
+2024-02-14T05:32:36.5531146Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2024-02-14T05:32:36.5552307Z TRACE:: Engine.Main(): Packet removed from queue: 1883620728
+2024-02-14T05:32:36.5567210Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2024-02-14T05:32:36.5582200Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2024-02-14T05:32:36.5587408Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2024-02-14T05:32:36.5603957Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.

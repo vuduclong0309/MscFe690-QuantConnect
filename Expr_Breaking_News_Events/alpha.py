@@ -52,3 +52,4 @@ class NewsSentimentAlphaModel(AlphaModel):
                 # Unsubscribe from the Tiingo News Feed for this security
                 algorithm.RemoveSecurity(self.dataset_symbol)
                 self.securities.remove(security)
+

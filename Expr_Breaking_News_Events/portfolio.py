@@ -92,3 +92,4 @@ class PartitionedPortfolioConstructionModel(PortfolioConstructionModel):
                 return True
 
         return False
+

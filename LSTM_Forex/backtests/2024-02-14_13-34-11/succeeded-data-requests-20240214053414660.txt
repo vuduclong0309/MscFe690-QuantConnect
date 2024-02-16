@@ -1,0 +1,1 @@
+/forex/oanda/daily/eurusd.zip

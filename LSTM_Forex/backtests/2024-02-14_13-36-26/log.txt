@@ -1,0 +1,181 @@
+2024-02-14T05:36:29.0420613Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-02-14T05:36:29.0655827Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-02-14T05:36:29.0662382Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: LAPTOP-BC2TTKVT
+2024-02-14T05:36:29.0732597Z TRACE:: Engine.Main(): Started 5:36 AM
+2024-02-14T05:36:29.0843361Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2024-02-14T05:36:29.1225828Z TRACE:: JobQueue.NextJob(): Selected /LeanCLI/main.py
+2024-02-14T05:36:29.2474261Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2024-02-14T05:36:29.2479061Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2024-02-14T05:36:29.2483087Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2024-02-14T05:36:29.2487191Z TRACE:: Config.GetValue(): maximum-chart-series - Using default value: 30
+2024-02-14T05:36:29.2505253Z TRACE:: Config.GetValue(): storage-limit - Using default value: 10737418240
+2024-02-14T05:36:29.2510975Z TRACE:: Config.GetValue(): storage-permissions - Using default value: 3
+2024-02-14T05:36:29.2514255Z TRACE:: Config.Get(): Configuration key not found. Key: optimization-id - Using default value: 
+2024-02-14T05:36:29.2517978Z TRACE:: Config.Get(): Configuration key not found. Key: backtest-name - Using default value: local
+2024-02-14T05:36:29.2638445Z TRACE:: Config.Get(): Configuration key not found. Key: data-channel - Using default value: 
+2024-02-14T05:36:29.2642298Z TRACE:: Config.Get(): Configuration key not found. Key: job-organization-id - Using default value: 
+2024-02-14T05:36:29.2650802Z TRACE:: Config.Get(): Configuration key not found. Key: python-venv - Using default value: 
+2024-02-14T05:36:29.2656614Z TRACE:: Config.Get(): Configuration key not found. Key: out-of-sample-max-end-date - Using default value: 
+2024-02-14T05:36:29.2665227Z TRACE:: Config.GetValue(): out-of-sample-days - Using default value: 0
+2024-02-14T05:36:29.2693679Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2024-02-14T05:36:29.3264520Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-02-14T05:36:29.3319669Z TRACE:: Config.Get(): Configuration key not found. Key: fundamental-data-provider - Using default value: CoarseFundamentalDataProvider
+2024-02-14T05:36:29.3426510Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2024-02-14T05:36:29.3442330Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2024-02-14T05:36:29.3819558Z TRACE:: Engine.Run(): Resource limits '0' CPUs. 2147483647 MB RAM.
+2024-02-14T05:36:29.3831301Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2024-02-14T05:36:29.5095793Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-02-14T05:36:30.1348130Z TRACE:: DebuggerHelper.Initialize(): initializing python...
+2024-02-14T05:36:30.1356343Z TRACE:: PythonInitializer.Initialize(): start...
+2024-02-14T05:36:31.7684841Z TRACE:: PythonInitializer.Initialize(): ended
+2024-02-14T05:36:31.7690061Z TRACE:: DebuggerHelper.Initialize(): python initialization done
+2024-02-14T05:36:31.7693138Z TRACE:: DebuggerHelper.Initialize(): starting...
+2024-02-14T05:36:31.7696302Z TRACE:: DebuggerHelper.Initialize(): waiting for PTVSD debugger to attach at localhost:5678...
+2024-02-14T05:36:37.2311126Z TRACE:: DebuggerHelper.Initialize(): started
+2024-02-14T05:36:37.2321781Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2024-02-14T05:36:37.2385314Z TRACE:: AlgorithmPythonWrapper(): Python version 3.8.16 (default, Jan 17 2023, 23:21:03) 
+[GCC 11.2.0]: Importing python module main
+2024-02-14T05:36:49.4475389Z TRACE:: AlgorithmPythonWrapper(): main successfully imported.
+2024-02-14T05:36:49.4541825Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2024-02-14T05:36:49.6377069Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage. StorageFileCount 9999999. StorageLimit 10240MB
+2024-02-14T05:36:49.6483590Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-02-14T05:36:49.6553686Z TRACE:: HistoryProviderManager.Initialize(): history providers [SubscriptionDataReaderHistoryProvider]
+2024-02-14T05:36:49.6590506Z TRACE:: BacktestingSetupHandler.Setup(): Setting up job: UID: 255804, PID: 388644080, Version: 2.5.0.0, Source: WebIDE
+2024-02-14T05:36:49.6674648Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2024-02-14T05:36:49.8372306Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 16
+2024-02-14T05:36:49.8415213Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2024-02-14T05:36:49.8418537Z TRACE:: WeightedWorkScheduler(): will use 16 workers and MaxWorkWeight is 400
+2024-02-14T05:36:51.8595889Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Account Type: Margin
+
+Symbol      Quantity    Conversion = Value in USD
+USD: $      100000.00 @       1.00 = $100000
+EUR: €           0.00 @     1.2218 = $0.00
+-------------------------------------------------
+CashBook Total Value:                $100000.00
+
+2024-02-14T05:36:51.8636086Z TRACE:: Total margin information: TotalMarginUsed: 0.00, MarginRemaining: 100000.00
+2024-02-14T05:36:51.8645401Z TRACE:: SetUp Backtesting: User: 255804 ProjectId: 388644080 AlgoId: 1899130346
+2024-02-14T05:36:51.8656522Z TRACE:: Dates: Start: 01/20/2018 End: 11/05/2018 Cash: ¤100,000.00 MaximumRuntime: 100.00:00:00 MaxOrders: 2147483647
+2024-02-14T05:36:51.8692520Z TRACE:: BacktestingResultHandler(): Sample Period Set: 104.40
+2024-02-14T05:36:51.8706257Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2024-02-14T05:36:51.8718076Z TRACE:: JOB HANDLERS:
+         DataFeed:             QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+         Setup:                QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+         RealTime:             QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+         Results:              QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+         Transactions:         QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+         Object Store:         QuantConnect.Lean.Engine.Storage.LocalObjectStore
+         History Provider:     QuantConnect.Lean.Engine.HistoricalData.HistoryProviderManager
+         Brokerage:            QuantConnect.Brokerages.Backtesting.BacktestingBrokerage
+         Data Provider:        QuantConnect.Lean.Engine.DataFeeds.DefaultDataProvider
+
+2024-02-14T05:36:51.9135334Z TRACE:: Event Name "Daily Sampling", scheduled to run.
+2024-02-14T05:36:51.9160272Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 1/20/2018 12:00:00 AM Stop: 11/5/2018 11:59:59 PM Time: 1/20/2018 12:00:00 AM Warmup: False
+2024-02-14T05:36:51.9975164Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed SPY,#0,SPY,Hour,TradeBar,Trade,Adjusted,OpenInterest,Internal
+2024-02-14T05:36:52.0216407Z TRACE:: Debug: Launching analysis for 1899130346 with LEAN Engine v2.5.0.0
+2024-02-14T05:36:52.3230259Z TRACE:: Debug: 123
+2024-02-14T05:36:52.5681259Z ERROR:: Extensions.SetRuntimeError(): Extensions.SetRuntimeError(): RuntimeError at 01/22/2018 00:00:00 UTC. Context: OnData Python.Runtime.PythonException: `tf.data.Dataset` only supports Python-style iteration in eager mode or within tf.function.
+  File "/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/data/ops/dataset_ops.py", line 508, in __iter__
+    raise RuntimeError("`tf.data.Dataset` only supports Python-style "
+  File "/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/engine/data_adapter.py", line 1654, in single_batch_iterator
+    return iter(dataset)
+  File "/opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py", line 1936, in predict_on_batch
+    iterator = data_adapter.single_batch_iterator(self.distribute_strategy, x)
+  File "/LeanCLI/main.py", line 369, in OnData
+    close_price = self.model.predict_on_batch(X_predict)
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyTuple args, PyDict kw)
+   at Python.Runtime.PyObject.TryInvoke(InvokeBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , PythonSlice )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at QuantConnect.AlgorithmFactory.Python.Wrappers.AlgorithmPythonWrapper.OnData(Slice slice) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/AlgorithmFactory/Python/Wrappers/AlgorithmPythonWrapper.cs:line 740
+   at QuantConnect.Lean.Engine.AlgorithmManager.Run(AlgorithmNodePacket job, IAlgorithm algorithm, ISynchronizer synchronizer, ITransactionHandler transactions, IResultHandler results, IRealTimeHandler realtime, ILeanManager leanManager, CancellationToken token) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/AlgorithmManager.cs:line 526
+2024-02-14T05:36:52.7548934Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2024-02-14T05:36:52.7559432Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2024-02-14T05:36:52.7592740Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2024-02-14T05:36:52.7595191Z TRACE:: Engine.Run(): Sending runtime error to user...
+2024-02-14T05:36:52.7665741Z TRACE:: StopSafely(): Waiting for 'Isolator Thread' thread to stop...
+2024-02-14T05:36:52.7673922Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2024-02-14T05:36:52.7680911Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2024-02-14T05:36:52.7739841Z TRACE:: StopSafely(): Waiting for 'Result Thread' thread to stop...
+2024-02-14T05:36:52.7740347Z ERROR:: Runtime Error: `tf.data.Dataset` only supports Python-style iteration in eager mode or within tf.function.
+  at __iter__
+    raise RuntimeError("`tf.data.Dataset` only supports Python-style "
+ in dataset_ops.py: line 508
+  at single_batch_iterator
+    return iter(dataset)
+ in /opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/engine/data_adapter.py: line 1654
+  at predict_on_batch
+    iterator = data_adapter.single_batch_iterator(self.distribute_strategy in /opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py: line 1936
+  at OnData
+    close_price = self.model.predict_on_batch(X_predict)
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyTuple args in /LeanCLI/main.py: line 369
+
+ `tf.data.Dataset` only supports Python-style iteration in eager mode or within tf.function.
+  at __iter__
+    raise RuntimeError("`tf.data.Dataset` only supports Python-style "
+ in dataset_ops.py: line 508
+  at single_batch_iterator
+    return iter(dataset)
+ in /opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/engine/data_adapter.py: line 1654
+  at predict_on_batch
+    iterator = data_adapter.single_batch_iterator(self.distribute_strategy in /opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py: line 1936
+  at OnData
+    close_price = self.model.predict_on_batch(X_predict)
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyTuple args in /LeanCLI/main.py: line 369
+
+2024-02-14T05:36:52.7744535Z TRACE:: Debug: Algorithm Id:(1899130346) completed in 0.89 seconds at 0k data points per second. Processing total of 220 data points.
+2024-02-14T05:36:52.7747295Z TRACE:: Debug:      close  ...      ema
+0  1.22561  ...  1.21826
+
+[1 rows x 35 columns]
+2024-02-14T05:36:52.7750396Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/1899130346-log.txt
+2024-02-14T05:36:52.7754740Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2024-02-14T05:36:52.8942654Z TRACE:: 
+STATISTICS:: Total Trades 0
+STATISTICS:: Average Win 0%
+STATISTICS:: Average Loss 0%
+STATISTICS:: Compounding Annual Return 0%
+STATISTICS:: Drawdown 0%
+STATISTICS:: Expectancy 0
+STATISTICS:: Net Profit 0%
+STATISTICS:: Sharpe Ratio 0
+STATISTICS:: Sortino Ratio 0
+STATISTICS:: Probabilistic Sharpe Ratio 0%
+STATISTICS:: Loss Rate 0%
+STATISTICS:: Win Rate 0%
+STATISTICS:: Profit-Loss Ratio 0
+STATISTICS:: Alpha 0
+STATISTICS:: Beta 0
+STATISTICS:: Annual Standard Deviation 0
+STATISTICS:: Annual Variance 0
+STATISTICS:: Information Ratio 0
+STATISTICS:: Tracking Error 0
+STATISTICS:: Treynor Ratio 0
+STATISTICS:: Total Fees $0.00
+STATISTICS:: Estimated Strategy Capacity $0
+STATISTICS:: Lowest Capacity Asset 
+STATISTICS:: Portfolio Turnover 0%
+STATISTICS:: OrderListHash d41d8cd98f00b204e9800998ecf8427e
+2024-02-14T05:36:52.8945716Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2024-02-14T05:36:52.8952513Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2024-02-14T05:36:52.8955799Z TRACE:: Engine.Run(): Disposing of setup handler...
+2024-02-14T05:36:52.8960381Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2024-02-14T05:36:52.8966480Z TRACE:: StopSafely(): Waiting for '' thread to stop...
+2024-02-14T05:36:52.8997275Z TRACE:: DataMonitor.GenerateReport():
+DATA USAGE:: Total data requests 2
+DATA USAGE:: Succeeded data requests 2
+DATA USAGE:: Failed data requests 0
+DATA USAGE:: Failed data requests percentage 0%
+DATA USAGE:: Total universe data requests 0
+DATA USAGE:: Succeeded universe data requests 0
+DATA USAGE:: Failed universe data requests 0
+DATA USAGE:: Failed universe data requests percentage 0%
+2024-02-14T05:36:52.9125473Z TRACE:: Engine.Main(): Packet removed from queue: 1899130346
+2024-02-14T05:36:52.9131793Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2024-02-14T05:36:52.9138890Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2024-02-14T05:36:52.9145756Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2024-02-14T05:36:52.9186442Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.

@@ -1,5 +1,13 @@
 {
-  "file-database-last-update": "01/06/2024",
+  "cache-timeout-seconds": 900,
+  "organization-path": "/LeanCLIWorkspace",
+  "history-rest-server": "http://*:9696/",
+  "pusher-appsecret": "1",
+  "pusher-appid": "1",
+  "pusher-appkey": "lean-poxa-app",
+  "streaming-endpoint": "http://host.docker.internal:8080",
+  "pusher-port": 8080,
+  "file-database-last-update": "02/14/2024",
   "organization-id": "61a3eb8f2affddcfae327debcca227e5",
   // this configuration file works by first loading all top-level
   // configuration items and then will load the specified environment

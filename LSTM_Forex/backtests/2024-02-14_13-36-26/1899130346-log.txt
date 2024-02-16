@@ -1,0 +1,17 @@
+2018-01-20 00:00:00 Launching analysis for 1899130346 with LEAN Engine v2.5.0.0
+2018-01-20 00:00:00 123
+2018-01-21 19:00:00 Runtime Error: `tf.data.Dataset` only supports Python-style iteration in eager mode or within tf.function.
+  at __iter__
+    raise RuntimeError("`tf.data.Dataset` only supports Python-style "
+ in dataset_ops.py: line 508
+  at single_batch_iterator
+    return iter(dataset)
+ in /opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/engine/data_adapter.py: line 1654
+  at predict_on_batch
+    iterator = data_adapter.single_batch_iterator(self.distribute_strategy in /opt/miniconda3/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py: line 1936
+  at OnData
+    close_price = self.model.predict_on_batch(X_predict)
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyTuple args in /LeanCLI/main.py: line 369
+
+2018-01-21 19:00:00 Algorithm Id:(1899130346) completed in 0.89 seconds at 0k data points per second. Processing total of 220 data points.

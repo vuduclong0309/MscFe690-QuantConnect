@@ -6,7 +6,40 @@
     "cloud-id": 16736070,
     "organization-id": "61a3eb8f2affddcfae327debcca227e5",
     "backtestGrid": {
-        "md": [],
+        "md": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 9,
+                "height": 5,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Assets Sales Volume",
+                "width": 3,
+                "height": 10,
+                "row": 1,
+                "column": 10,
+                "sort": 20
+            },
+            {
+                "chartName": "Drawdown",
+                "width": 9,
+                "height": 2,
+                "row": 6,
+                "column": 1,
+                "sort": 61
+            },
+            {
+                "chartName": "Exposure",
+                "width": 9,
+                "height": 3,
+                "row": 8,
+                "column": 1,
+                "sort": 81
+            }
+        ],
         "xs": [
             {
                 "chartName": "Strategy Equity",
