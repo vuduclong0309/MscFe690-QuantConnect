@@ -1,0 +1,323 @@
+QuantConnect Extension Version: 0.1.1106.
+Platform: win32 (x64).
+Visual Studio Code Version: 1.86.1.
+Jupyter Extension Version: 2024.1.1.
+Python Extension Version: 2024.0.1.
+C# Extension Version: 2.15.30.
+[12:18:06] Launching QuantConnect vscode local extension
+[12:18:06] Processing Project Panel Status
+[12:18:06] Launcher.isChecklistCompleted(): lean is not completed has value undefined
+[12:18:06] [ToolboxLeanCLI.runShellCommandAsync] Running command python -m pip show quantconnect-stubs
+[12:18:06] ControllerLeanCLI._readCacheValuesForChecklistIfValid(): Using cached values for checklist {"leanMinVersionInstalled":true,"minVersionLeanCLI":"1.0.177","minTimeMessagingImage":"2022-12-21T18:51:24.886246286Z","minTimeLeanImage":"2024-01-08T21:57:04.873614309Z","minTimeResearchImage":"2023-06-12T22:30:48.976188733Z","dockerInstalled":true,"leanImageAvailableAndUpdated":true,"researchImageAvailableAndUpdated":true,"minTimeLocalServicesImage":"2024-01-08T22:26:13.201495977Z","localServicesImageAvailableAndUpdated":true,"messagingImageAvailableAndUpdated":true}
+[12:18:07] Api: Extension version 0.1.1106
+[12:18:07] Api Target Production
+[12:18:07] Config Domain undefined
+[12:18:07] quantConnect.domain
+[12:18:07] User ID 255804
+[12:18:07] Base Domain https://www.quantconnect.com
+[12:18:07] User ID 255804
+[12:18:07] ControllerLeanCLI.preflightChecklist(): Credentials valid.
+[12:18:07] ApiLeanCLI.Initialize(): retrieved lean environments
+[12:18:07] Launcher.processProjectPanelStatus(): received preflight checklist. Updating it.
+[12:18:07] Launcher.updateChecklist(): updated checklist to {"leanCorrectVersionInstalled":true,"loggedIn":true,"lean":true}
+[12:18:07] Launcher.processProjectPanelStatus(): Checklist completed
+[12:18:07] Processing Project Panel Status
+[12:18:07] Launcher.processProjectPanelStatus(): Checking workspace
+[12:18:07] Launcher.processProjectPanelStatus(): Workspace file:///c%3A/Users/vuduc/OneDrive/Documents/Git/QuantConnect selected. Checking subscription
+[12:18:07] ApiLeanCLI.Initialize(): retrieved lean versions
+[12:18:08] Socket Connection Succeed.
+[12:18:08] Organization.verifyModuleLicense: 61a3eb8f2affddcfae327debcca227e5 227
+[12:18:08] {"stamped":1708013865,"expiration":"2024-03-17 02:17:45","isValid":true}
+[12:18:08] Launcher.processProjectPanelStatus(): Subscription valid. Let's continue.
+[12:18:08] Processing Project Panel Status
+[12:18:08] Launcher.processProjectPanelStatus(): Checking workspace
+[12:18:08] Launcher.processProjectPanelStatus(): Workspace file:///c%3A/Users/vuduc/OneDrive/Documents/Git/QuantConnect selected. Checking subscription
+[12:18:08] Launcher._processVsCodeWorkspace(): Processing vscode workspace for organization 61a3eb8f2affddcfae327debcca227e5
+[12:18:08] Launcher._processVsCodeWorkspace(): No project found in vscode workspace.
+[12:18:08] ControllerLeanCLI._updateCacheValuesForChecklistIfRequired(): Updated cached values for checklist {"lastUpdated":"2024-02-15T16:18:07.557Z","state":{"leanMinVersionInstalled":true,"minVersionLeanCLI":"1.0.177","minTimeMessagingImage":"2022-12-21T18:51:24.886246286Z","minTimeLeanImage":"2024-01-08T21:57:04.873614309Z","minTimeLocalServicesImage":"2024-01-08T22:26:13.201495977Z","minTimeResearchImage":"2023-06-12T22:30:48.976188733Z"}}
+[12:18:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:18:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:18:08] Elapsed for ApiLeanCLI 57
+[12:18:08] Elapsed for ApiLeanCLI 258
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/services/code-login/$, 'status: ' 200, 2494 s
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/lean/versions/read/$, 'status: ' 200, 1943 s
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/lean/environments/read/$, 'status: ' 200, 1946 s
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/user/read/$, 'status: ' 200, 1939 s
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/authenticate/$, 'status: ' 200, 1944 s
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/organizations/list/$, 'status: ' 200, 1940 s
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/user/read/$, 'status: ' 200, 1960 s
+[12:18:09] Preferred language updated from QuantConnect.com to Py
+[12:18:09] ApiCloudCache._thenableGenericApiRequest: Cache file c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\cache\L2FwaS92Mi9hdXRoZW50aWNhdGUve30=.json updated
+[12:18:09] ApiCloudCache._thenableGenericApiRequest: Cache file c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\cache\L2FwaS92Mi9sZWFuL3ZlcnNpb25zL3JlYWQve30=.json updated
+[12:18:09] ApiCloudCache._thenableGenericApiRequest: Cache file c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\cache\L2FwaS92Mi9sZWFuL2Vudmlyb25tZW50cy9yZWFkL3t9.json updated
+[12:18:09] ApiCloudCache._thenableGenericApiRequest: Cache file c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\cache\L2FwaS92Mi9vcmdhbml6YXRpb25zL2xpc3Qve30=.json updated
+[12:18:09] ApiCloudCache._thenableGenericApiRequest: Cache file c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\cache\L2FwaS92Mi91c2VyL3JlYWQve30=.json updated
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 1264 s
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/support/chat/greetings/$, 'status: ' 200, 1244 s
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/user/read/$, 'status: ' 200, 1267 s
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/user/read/$, 'status: ' 200, 1249 s
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/user/read/$, 'status: ' 200, 1275 s
+[12:18:09] Preferred language updated from QuantConnect.com to Py
+[12:18:09] ApiCloudCache._thenableGenericApiRequest: Cache file c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\cache\L2FwaS92Mi91c2VyL3JlYWQveyJvcmdhbml6YXRpb25JZCI6IjYxYTNlYjhmMmFmZmRkY2ZhZTMyN2RlYmNjYTIyN2U1In0=.json updated
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 1143 s
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/organizations/read/$, 'status: ' 200, 1330 s
+[12:18:09] [Cloud API] https://www.quantconnect.com/api/v2/organizations/read/$, 'status: ' 200, 1321 s
+[12:18:09] ApiCloudCache._thenableGenericApiRequest: Cache file c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\cache\L2FwaS92Mi9vcmdhbml6YXRpb25zL3JlYWQveyJvcmdhbml6YXRpb25JZCI6IjYxYTNlYjhmMmFmZmRkY2ZhZTMyN2RlYmNjYTIyN2U1Iiwic2tpcENhY2hlIjpmYWxzZX0=.json updated
+[12:18:09] ApiCloudCache._thenableGenericApiRequest: Cache file c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\cache\L2FwaS92Mi9vcmdhbml6YXRpb25zL3JlYWQveyJvcmdhbml6YXRpb25JZCI6IjYxYTNlYjhmMmFmZmRkY2ZhZTMyN2RlYmNjYTIyN2U1In0=.json updated
+[12:18:09] Elapsed for ApiCloud 1398
+[12:18:09] Elapsed for ApiCloud 1206
+[12:18:10] ApiCloudCache._thenableGenericApiRequest: Cache file c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\cache\L2FwaS92Mi91c2VyL3JlYWQveyJvcmdhbml6YXRpb25JZCI6IjYxYTNlYjhmMmFmZmRkY2ZhZTMyN2RlYmNjYTIyN2U1In0=.json updated
+[12:18:10] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:18:10] LocalProjectsSync.pullProject(): Pulling 'Capstone2_SPY_OLMAR'
+[12:18:10] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 833 s
+[12:18:10] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:18:13] QuantConnect stubs installation found in default python interpreter
+[12:18:13] QuantConnect stubs installation found in default python interpreter
+[12:18:13] QuantConnect stubs installation found in default python interpreter
+[12:18:13] QuantConnect stubs installation found in default python interpreter
+[12:18:13] QuantConnect stubs installation found in default python interpreter
+[12:18:13] QuantConnect stubs installation found in default python interpreter
+[12:18:13] QuantConnect stubs installation found in default python interpreter
+[12:18:13] QuantConnect stubs installation found in default python interpreter
+[12:18:13] QuantConnect stubs installation found in default python interpreter
+[12:18:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:18:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:18:38] Elapsed for ApiLeanCLI 39
+[12:18:41] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 3171 s
+[12:18:41] Elapsed for ApiCloud 3236
+[12:18:41] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:19:01] Cloud API.requestPromiseHandler(): url: https://www.quantconnect.com/api/v2/status/vscode/, {"name":"RequestError","code":"ETIMEDOUT"}
+[12:19:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:19:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:19:08] Elapsed for ApiLeanCLI 32
+[12:19:12] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 3660 s
+[12:19:12] Elapsed for ApiCloud 3721
+[12:19:12] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:19:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:19:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:19:38] Elapsed for ApiLeanCLI 34
+[12:19:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 826 s
+[12:19:39] Elapsed for ApiCloud 889
+[12:19:39] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:19:39] LocalProjectsSync.pullProject(): Pulling 'Capstone2_SPY_OLMAR'
+[12:19:40] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 810 s
+[12:19:40] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:20:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:20:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:20:08] Elapsed for ApiLeanCLI 37
+[12:20:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 1227 s
+[12:20:09] Elapsed for ApiCloud 1286
+[12:20:09] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:20:09] LocalProjectsSync.pullProject(): Pulling 'Capstone2_SPY_OLMAR'
+[12:20:10] Socket Connection Succeed.
+[12:20:10] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 869 s
+[12:20:10] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:20:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:20:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:20:38] Elapsed for ApiLeanCLI 34
+[12:20:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 880 s
+[12:20:39] Elapsed for ApiCloud 939
+[12:20:39] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:21:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:21:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:21:08] Elapsed for ApiLeanCLI 31
+[12:21:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 879 s
+[12:21:09] Elapsed for ApiCloud 936
+[12:21:09] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:21:09] LocalProjectsSync.pullProject(): Pulling 'Capstone2_SPY_OLMAR'
+[12:21:10] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 815 s
+[12:21:10] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:21:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:21:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:21:38] Elapsed for ApiLeanCLI 30
+[12:21:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 833 s
+[12:21:39] Elapsed for ApiCloud 892
+[12:21:39] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:21:39] LocalProjectsSync.pullProject(): Pulling 'Capstone2_SPY_OLMAR'
+[12:21:40] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 839 s
+[12:21:40] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:22:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:22:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:22:08] Elapsed for ApiLeanCLI 32
+[12:22:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 830 s
+[12:22:09] Elapsed for ApiCloud 887
+[12:22:09] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:22:09] LocalProjectsSync.pullProject(): Pulling 'Capstone2_SPY_OLMAR'
+[12:22:10] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 832 s
+[12:22:10] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:22:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:22:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:22:38] Elapsed for ApiLeanCLI 34
+[12:22:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 863 s
+[12:22:39] Elapsed for ApiCloud 921
+[12:22:39] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:22:39] LocalProjectsSync.pullProject(): Pulling 'Capstone2_SPY_OLMAR'
+[12:22:40] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 834 s
+[12:22:40] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:23:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:23:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:23:08] Elapsed for ApiLeanCLI 31
+[12:23:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 855 s
+[12:23:09] Elapsed for ApiCloud 912
+[12:23:09] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:23:09] LocalProjectsSync.pullProject(): Pulling 'Capstone2_SPY_OLMAR'
+[12:23:10] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 853 s
+[12:23:10] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:23:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:23:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:23:38] Elapsed for ApiLeanCLI 32
+[12:23:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 840 s
+[12:23:39] Elapsed for ApiCloud 896
+[12:23:39] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:23:39] LocalProjectsSync.pullProject(): Pulling 'Capstone2_SPY_OLMAR'
+[12:23:40] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 825 s
+[12:23:40] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:24:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:24:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:24:08] Elapsed for ApiLeanCLI 32
+[12:24:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 847 s
+[12:24:09] Elapsed for ApiCloud 907
+[12:24:09] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:24:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:24:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:24:38] Elapsed for ApiLeanCLI 35
+[12:24:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 845 s
+[12:24:39] Elapsed for ApiCloud 902
+[12:24:39] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:25:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:25:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:25:08] Elapsed for ApiLeanCLI 30
+[12:25:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 839 s
+[12:25:09] Elapsed for ApiCloud 897
+[12:25:09] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:25:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:25:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:25:38] Elapsed for ApiLeanCLI 34
+[12:25:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 834 s
+[12:25:39] Elapsed for ApiCloud 891
+[12:25:39] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:25:39] LocalProjectsSync.pullProject(): Pulling 'Capstone2_SPY_OLMAR'
+[12:25:40] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 824 s
+[12:25:40] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:26:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:26:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:26:08] Elapsed for ApiLeanCLI 32
+[12:26:10] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 1415 s
+[12:26:10] Elapsed for ApiCloud 1471
+[12:26:10] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:26:10] LocalProjectsSync.pullProject(): Pulling 'Capstone2_SPY_OLMAR'
+[12:26:12] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 1926 s
+[12:26:12] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:26:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:26:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:26:38] Elapsed for ApiLeanCLI 31
+[12:26:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 852 s
+[12:26:39] Elapsed for ApiCloud 909
+[12:26:39] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:26:39] LocalProjectsSync.pullProject(): Pulling 'Capstone2_SPY_OLMAR'
+[12:26:40] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 860 s
+[12:26:40] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:27:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:27:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:27:08] Elapsed for ApiLeanCLI 31
+[12:27:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 838 s
+[12:27:09] Elapsed for ApiCloud 895
+[12:27:09] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:27:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:27:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:27:38] Elapsed for ApiLeanCLI 32
+[12:27:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 846 s
+[12:27:39] Elapsed for ApiCloud 905
+[12:27:39] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:28:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:28:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:28:08] Elapsed for ApiLeanCLI 35
+[12:28:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 841 s
+[12:28:09] Elapsed for ApiCloud 901
+[12:28:09] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:28:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:28:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:28:38] Elapsed for ApiLeanCLI 32
+[12:28:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 1208 s
+[12:28:39] Elapsed for ApiCloud 1266
+[12:28:39] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:29:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:29:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:29:08] Elapsed for ApiLeanCLI 31
+[12:29:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 855 s
+[12:29:09] Elapsed for ApiCloud 912
+[12:29:09] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:29:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:29:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:29:38] Elapsed for ApiLeanCLI 32
+[12:29:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 860 s
+[12:29:39] Elapsed for ApiCloud 922
+[12:29:39] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:30:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:30:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:30:08] Elapsed for ApiLeanCLI 32
+[12:30:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 832 s
+[12:30:09] Elapsed for ApiCloud 888
+[12:30:09] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:30:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:30:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:30:38] Elapsed for ApiLeanCLI 31
+[12:30:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 906 s
+[12:30:39] Elapsed for ApiCloud 963
+[12:30:39] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:31:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:31:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:31:08] Elapsed for ApiLeanCLI 32
+[12:31:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 855 s
+[12:31:09] Elapsed for ApiCloud 911
+[12:31:09] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:31:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:31:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:31:38] Elapsed for ApiLeanCLI 32
+[12:31:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 833 s
+[12:31:39] Elapsed for ApiCloud 890
+[12:31:39] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:32:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:32:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:32:08] Elapsed for ApiLeanCLI 31
+[12:32:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 855 s
+[12:32:09] Elapsed for ApiCloud 913
+[12:32:09] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:32:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:32:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:32:38] Elapsed for ApiLeanCLI 32
+[12:32:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 837 s
+[12:32:39] Elapsed for ApiCloud 893
+[12:32:39] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:33:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:33:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:33:08] Elapsed for ApiLeanCLI 32
+[12:33:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 847 s
+[12:33:09] Elapsed for ApiCloud 903
+[12:33:09] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:33:09] LocalProjectsSync.pullProject(): Pulling 'Clone of SPY Constituents Mean Reversion'
+[12:33:10] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 837 s
+[12:33:10] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:33:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:33:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:33:38] Elapsed for ApiLeanCLI 31
+[12:33:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 858 s
+[12:33:39] Elapsed for ApiCloud 915
+[12:33:39] LocalProjectsSync._runCloudModifiedProjectsPull(): SyncProjects: Found 1 modified cloud projects to pull
+[12:33:39] LocalProjectsSync.pullProject(): Pulling 'Clone of SPY Constituents Mean Reversion'
+[12:33:40] [Cloud API] https://www.quantconnect.com/api/v2/files/read$, 'status: ' 200, 837 s
+[12:33:40] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:34:08] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:34:08] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:34:08] Elapsed for ApiLeanCLI 32
+[12:34:09] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 832 s
+[12:34:09] Elapsed for ApiCloud 888
+[12:34:09] Deleted disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:34:38] Created disposable file 'c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\.QuantConnect\sync.lock'
+[12:34:38] LocalProjectsSync.runProjectSync(): SyncProjects: Start...
+[12:34:38] Elapsed for ApiLeanCLI 34
+[12:34:39] [Cloud API] https://www.quantconnect.com/api/v2/projects/read/$, 'status: ' 200, 847 s
+[12:34:39] Elapsed for ApiCloud 902
+[12:34:39] LocalProjectsSync._runCloudOrphanProjectsDelete(): SyncProjects: Found orphan project with path c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\Clone of SPY Constituents Mean Reversion and cloud id 17097408
+[12:34:39] LocalProjectsSync._runCloudOrphanProjectsDelete(): SyncProjects: Found 1 delete cloud projects to remove locally. Project List Received From CLoud [{"name":"Capstone2_SPY_OLMAR","cloudId":17126403},{"name":"clone of 8502macd with takeprofit and stop loss for futures","cloudId":17126390},{"name":"Capstone_Main_MACD_SPYFuture_ProfitLoss","cloudId":17122622},{"name":"clone of 8502macd with takeprofit and stop loss for futures 2","cloudId":17123021},{"name":"SPY MACD","cloudId":17123020},{"name":"clone of clone of macd with rollover ondata","cloudId":17122617},{"name":"MscFe690_RSI_Default_SPY","cloudId":16736070},{"name":"LSTM_Forex","cloudId":17114134},{"name":"MscFe690 LSTM Base Daily","cloudId":17107243},{"name":"clone of kaleigh rsi algorithm","cloudId":17122340},{"name":"Clone of MscFe690 LSTM Base Daily","cloudId":17113712},{"name":"clone of mean reversion py","cloudId":17008252},{"name":"clone of hidden markov model py","cloudId":17010156},{"name":"clone of consolidated indicators","cloudId":17068956},{"name":"Price Action LS SPY","cloudId":16093980},{"name":"SPY_Correl_Alpha","cloudId":16093963},{"name":"Expr_Breaking_News_Events","cloudId":16331045},{"name":"MScFE690_RSI_US_Top10_Volume","cloudId":16743736},{"name":"Mean Rev Basic","cloudId":16331710}]
+[12:34:39] LocalProjectsSync._safeDeleteFolder(): Deleted project with path c:\Users\vuduc\OneDrive\Documents\Git\QuantConnect\Clone of SPY Constituents Mean Reversion

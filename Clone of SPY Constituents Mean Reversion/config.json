@@ -1,0 +1,8 @@
+{
+    "cloud-id": 17126731,
+    "algorithm-language": "Python",
+    "parameters": {},
+    "description": "Select a portfolio of constituents of SPY according to a mean reversion hypothesis and the stationary of the log price series using Augmented Dickey-Fuller test.",
+    "organization-id": "61a3eb8f2affddcfae327debcca227e5",
+    "python-venv": 1
+}

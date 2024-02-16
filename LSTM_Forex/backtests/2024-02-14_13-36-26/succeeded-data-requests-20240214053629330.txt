@@ -1,0 +1,2 @@
+/forex/oanda/daily/eurusd.zip
+/equity/usa/hour/spy.zip

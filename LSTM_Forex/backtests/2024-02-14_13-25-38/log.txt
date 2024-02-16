@@ -1,0 +1,107 @@
+2024-02-14T05:26:31.8462334Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-02-14T05:26:31.9176152Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-02-14T05:26:31.9184161Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: LAPTOP-BC2TTKVT
+2024-02-14T05:26:31.9421048Z TRACE:: Engine.Main(): Started 5:26 AM
+2024-02-14T05:26:31.9646960Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2024-02-14T05:26:32.0130133Z TRACE:: JobQueue.NextJob(): Selected /LeanCLI/main.py
+2024-02-14T05:26:32.1421955Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2024-02-14T05:26:32.1429310Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2024-02-14T05:26:32.1434404Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2024-02-14T05:26:32.1441009Z TRACE:: Config.GetValue(): maximum-chart-series - Using default value: 30
+2024-02-14T05:26:32.1458091Z TRACE:: Config.GetValue(): storage-limit - Using default value: 10737418240
+2024-02-14T05:26:32.1464577Z TRACE:: Config.GetValue(): storage-permissions - Using default value: 3
+2024-02-14T05:26:32.1470501Z TRACE:: Config.Get(): Configuration key not found. Key: optimization-id - Using default value: 
+2024-02-14T05:26:32.1476199Z TRACE:: Config.Get(): Configuration key not found. Key: backtest-name - Using default value: local
+2024-02-14T05:26:32.1615769Z TRACE:: Config.Get(): Configuration key not found. Key: data-channel - Using default value: 
+2024-02-14T05:26:32.1623681Z TRACE:: Config.Get(): Configuration key not found. Key: job-organization-id - Using default value: 
+2024-02-14T05:26:32.1630295Z TRACE:: Config.Get(): Configuration key not found. Key: python-venv - Using default value: 
+2024-02-14T05:26:32.1635980Z TRACE:: Config.Get(): Configuration key not found. Key: out-of-sample-max-end-date - Using default value: 
+2024-02-14T05:26:32.1644556Z TRACE:: Config.GetValue(): out-of-sample-days - Using default value: 0
+2024-02-14T05:26:32.1669928Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2024-02-14T05:26:32.2327067Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-02-14T05:26:32.2371745Z TRACE:: Config.Get(): Configuration key not found. Key: fundamental-data-provider - Using default value: CoarseFundamentalDataProvider
+2024-02-14T05:26:32.2460787Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2024-02-14T05:26:32.2476026Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2024-02-14T05:26:32.2850222Z TRACE:: Engine.Run(): Resource limits '0' CPUs. 2147483647 MB RAM.
+2024-02-14T05:26:32.2864926Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2024-02-14T05:26:32.4070770Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-02-14T05:26:32.9187925Z TRACE:: DebuggerHelper.Initialize(): initializing python...
+2024-02-14T05:26:32.9198935Z TRACE:: PythonInitializer.Initialize(): start...
+2024-02-14T05:26:34.3486761Z TRACE:: PythonInitializer.Initialize(): ended
+2024-02-14T05:26:34.3491512Z TRACE:: DebuggerHelper.Initialize(): python initialization done
+2024-02-14T05:26:34.3496317Z TRACE:: DebuggerHelper.Initialize(): starting...
+2024-02-14T05:26:34.3500226Z TRACE:: DebuggerHelper.Initialize(): waiting for PTVSD debugger to attach at localhost:5678...
+2024-02-14T05:26:38.2589854Z TRACE:: DebuggerHelper.Initialize(): started
+2024-02-14T05:26:38.2613211Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2024-02-14T05:26:38.2701758Z TRACE:: AlgorithmPythonWrapper(): Python version 3.8.16 (default, Jan 17 2023, 23:21:03) 
+[GCC 11.2.0]: Importing python module main
+2024-02-14T05:26:58.0587872Z TRACE:: AlgorithmPythonWrapper(): main successfully imported.
+2024-02-14T05:26:58.0660689Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2024-02-14T05:26:58.2405755Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage. StorageFileCount 9999999. StorageLimit 10240MB
+2024-02-14T05:26:58.2517328Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-02-14T05:26:58.2596586Z TRACE:: HistoryProviderManager.Initialize(): history providers [SubscriptionDataReaderHistoryProvider]
+2024-02-14T05:26:58.2628656Z TRACE:: BacktestingSetupHandler.Setup(): Setting up job: UID: 255804, PID: 388644080, Version: 2.5.0.0, Source: WebIDE
+2024-02-14T05:26:58.2730301Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2024-02-14T05:26:58.4439738Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 16
+2024-02-14T05:26:58.4482422Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2024-02-14T05:26:58.4486772Z TRACE:: WeightedWorkScheduler(): will use 16 workers and MaxWorkWeight is 400
+2024-02-14T05:26:59.0233341Z TRACE:: BacktestingResultHandler(): Sample Period Set: 104.40
+2024-02-14T05:26:59.0269281Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2024-02-14T05:26:59.2211635Z ERROR:: Engine.Run(): During the algorithm initialization, the following exception has occurred: module 'keras.api._v2.keras.backend' has no attribute 'get_session'
+  at Initialize
+    self.session = K.get_session()
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyTuple args in main.py: line 231
+ module 'keras.api._v2.keras.backend' has no attribute 'get_session'
+2024-02-14T05:26:59.2224409Z TRACE:: JOB HANDLERS:
+         DataFeed:             QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+         Setup:                QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+         RealTime:             QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+         Results:              QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+         Transactions:         QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+         Object Store:         QuantConnect.Lean.Engine.Storage.LocalObjectStore
+         History Provider:     QuantConnect.Lean.Engine.HistoricalData.HistoryProviderManager
+         Brokerage:            QuantConnect.Brokerages.Backtesting.BacktestingBrokerage
+         Data Provider:        QuantConnect.Lean.Engine.DataFeeds.DefaultDataProvider
+
+2024-02-14T05:26:59.2230740Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2024-02-14T05:26:59.2248467Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2024-02-14T05:26:59.2256240Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2024-02-14T05:26:59.2389044Z ERROR:: During the algorithm initialization, the following exception has occurred: module 'keras.api._v2.keras.backend' has no attribute 'get_session'
+  at Initialize
+    self.session = K.get_session()
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyTuple args in main.py: line 231
+ module 'keras.api._v2.keras.backend' has no attribute 'get_session'
+ module 'keras.api._v2.keras.backend' has no attribute 'get_session'
+  at Initialize
+    self.session = K.get_session()
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyTuple args in main.py: line 231
+ module 'keras.api._v2.keras.backend' has no attribute 'get_session'
+2024-02-14T05:26:59.2501465Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2024-02-14T05:26:59.2569725Z TRACE:: Debug: 123
+2024-02-14T05:26:59.2576307Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/1407620959-log.txt
+2024-02-14T05:26:59.2577147Z TRACE:: StopSafely(): Waiting for 'Result Thread' thread to stop...
+2024-02-14T05:26:59.2580915Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2024-02-14T05:26:59.4139039Z TRACE:: 
+STATISTICS:: OrderListHash d41d8cd98f00b204e9800998ecf8427e
+2024-02-14T05:26:59.4144304Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2024-02-14T05:26:59.4154454Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2024-02-14T05:26:59.4159884Z TRACE:: Engine.Run(): Disposing of setup handler...
+2024-02-14T05:26:59.4164303Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2024-02-14T05:26:59.4175607Z TRACE:: StopSafely(): Waiting for '' thread to stop...
+2024-02-14T05:26:59.4224257Z TRACE:: DataMonitor.GenerateReport():
+DATA USAGE:: Total data requests 1
+DATA USAGE:: Succeeded data requests 1
+DATA USAGE:: Failed data requests 0
+DATA USAGE:: Failed data requests percentage 0%
+DATA USAGE:: Total universe data requests 0
+DATA USAGE:: Succeeded universe data requests 0
+DATA USAGE:: Failed universe data requests 0
+DATA USAGE:: Failed universe data requests percentage 0%
+2024-02-14T05:26:59.4369766Z TRACE:: Engine.Main(): Packet removed from queue: 1407620959
+2024-02-14T05:26:59.4377752Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2024-02-14T05:26:59.4386972Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2024-02-14T05:26:59.4396970Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2024-02-14T05:26:59.4436016Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.

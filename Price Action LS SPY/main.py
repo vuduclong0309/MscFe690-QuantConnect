@@ -66,3 +66,4 @@ class PriceActionLSSPYAlphaModel(AlphaModel):
     def OnSecuritiesChanged(self, algorithm, changes):
         self.changes =  changes
     
+
