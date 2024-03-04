@@ -1,0 +1,104 @@
+{
+    "organization-id": "61a3eb8f2affddcfae327debcca227e5",
+    "channel-id": "LOCAL-2aa801c6c7d647b53141261ddc905834",
+    "description": "",
+    "algorithm-language": "Python",
+    "parameters": {},
+    "backtestGrid": {
+        "md": [],
+        "lg": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 9,
+                "height": 5,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Assets Sales Volume",
+                "width": 3,
+                "height": 9,
+                "row": 1,
+                "column": 10,
+                "sort": 20
+            },
+            {
+                "chartName": "Portfolio Margin",
+                "width": 9,
+                "height": 4,
+                "row": 6,
+                "column": 1,
+                "sort": 61
+            },
+            {
+                "chartName": "Drawdown",
+                "width": 4,
+                "height": 3,
+                "row": 10,
+                "column": 1,
+                "sort": 101
+            },
+            {
+                "chartName": "Exposure",
+                "width": 4,
+                "height": 3,
+                "row": 10,
+                "column": 5,
+                "sort": 105
+            },
+            {
+                "chartName": "Portfolio Turnover",
+                "width": 4,
+                "height": 3,
+                "row": 10,
+                "column": 9,
+                "sort": 109
+            }
+        ],
+        "sm": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 12,
+                "height": 6,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Portfolio Margin",
+                "width": 12,
+                "height": 4,
+                "row": 7,
+                "column": 1,
+                "sort": 71
+            },
+            {
+                "chartName": "Assets Sales Volume",
+                "width": 12,
+                "height": 4,
+                "row": 11,
+                "column": 1,
+                "sort": 111
+            },
+            {
+                "chartName": "Drawdown",
+                "width": 6,
+                "height": 5,
+                "row": 15,
+                "column": 1,
+                "sort": 151
+            },
+            {
+                "chartName": "Exposure",
+                "width": 6,
+                "height": 4,
+                "row": 20,
+                "column": 1,
+                "sort": 201
+            }
+        ]
+    },
+    "python-venv": 1,
+    "cloud-id": 17274986
+}

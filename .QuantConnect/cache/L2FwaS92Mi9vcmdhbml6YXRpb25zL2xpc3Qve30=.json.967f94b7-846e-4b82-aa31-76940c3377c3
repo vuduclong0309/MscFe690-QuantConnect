@@ -1,0 +1,16 @@
+{
+    "organizations": [
+        {
+            "id": "61a3eb8f2affddcfae327debcca227e5",
+            "name": "Long",
+            "type": "Researcher",
+            "ownerName": "You",
+            "members": 1,
+            "selected": false,
+            "skylightSync": 1,
+            "preferred": true,
+            "profileImage": "https://cdn.quantconnect.com/i/tu/organization-default-icon.png"
+        }
+    ],
+    "success": true
+}
